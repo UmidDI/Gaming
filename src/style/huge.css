@@ -1,0 +1,37 @@
+.loc__img{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-right: 1px solid wheat;
+padding-right: 90px;
+
+}
+.phone{
+    border-left: 1px solid wheat;
+padding-left: 90px;
+
+}
+@media(max-width: 1100px){
+    .map__back{
+        width: 100%;
+    }
+.loc__img img{
+    border: none;
+    padding: 0;
+}
+}
+@media(max-width: 820px){
+    .loc__img{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media(max-width: 420px){
+    .phone{
+        width: 100%;
+    }
+}

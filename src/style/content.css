@@ -1,0 +1,37 @@
+.contenthero h4{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #fff;
+text-align: center;
+}
+.contenthero{
+    margin-top: 110px;
+}
+
+.contenthero span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #e47500;
+}
+.contenthero h2{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+}
+.contenthero p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+margin-bottom: 45px;
+margin-bottom: 74px;
+}

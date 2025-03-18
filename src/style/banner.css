@@ -1,0 +1,54 @@
+.teskari{
+    flex-direction: row-reverse;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+.banner__text{
+    width: 536px;
+}
+.banner__text h2{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 30px;
+color: #fff;
+}
+.banner__text h4{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 17px;
+color: #fff;
+margin-top: 43px;
+margin-bottom: 18px;
+}
+.banner__text p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 17px;
+color: #fff;
+margin-bottom: 46px;
+}
+.banner__text button{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+width: 177px;
+height: 50px;
+background: #dc7000;
+border: none;
+}
+@media(max-width:780px){
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner__text{
+        width: auto;
+    }
+    .banner__img img{
+        width: 100%;
+    }
+}

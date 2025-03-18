@@ -1,0 +1,35 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Poppins", sans-serif;
+  --third-family: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: black;
+  position: relative;
+  
+}
+
+.joys{
+  position: absolute;
+  top: -200px;
+  left: 750px;
+  width: auto;
+  height: auto;
+}

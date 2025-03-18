@@ -1,0 +1,74 @@
+.happy__text h2{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+}
+.happy__text{
+    width: auto;
+    margin: 0 auto;
+}
+.happy__text p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+}
+.happy{
+    background: #1c140f;
+    padding: 88px 31px;
+}
+.happy__card:nth-of-type(1){
+    border: 2px solid #dc7000;
+border-radius: 10px;
+width: 400px;
+height: 230px;
+background: #0f0901;
+}
+.happy__card{
+    border: 2px solid #dc7000;
+border-radius: 10px;
+width: 400px;
+height: 230px;
+background: #0f0901;
+padding: 30px;
+margin-top: 68px;
+
+}
+.happy__card p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 187%;
+    color: #fff;
+}
+.happy__img{
+    margin-bottom: 20px;
+}
+.happy__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+@media(max-width:950px){
+    .happy__wrapper{
+        flex-wrap: wrap;
+    }
+    .happy__card p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #fff;
+    }
+}
+@media(max-width: 450px){
+    .happy__card{
+        padding: 0;
+    }
+}

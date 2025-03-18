@@ -1,0 +1,217 @@
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+
+.modal{
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    transition: 500ms;
+    transform: translateX(2000px);
+
+}
+.modal{
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    transition: 500ms;
+    transform: translateX(2000px);
+
+}
+.show_modal{
+    transform: translateX(0);
+    transition: 500ms;
+}
+.modal__link{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+text-transform: uppercase;
+}
+.modal__close{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.modal__close img{
+    width: 100%;
+}
+.header__menu{
+    display: none;
+    
+}
+.header {
+    max-width: 15   00px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+.modal{
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    transition: 500ms;
+    transform: translateX(2000px);
+
+}
+.show_modal{
+    transform: translateX(0);
+    transition: 500ms;
+}
+.modal__link{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+text-transform: uppercase;
+}
+.modal__close{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.onaboshi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 88px;
+}
+.onaboshi li{
+    position: relative;
+}
+.onaboshi li .active::after{
+    content: "";
+    width: 31px;
+    height: 4px;
+    background-color: #fa9021;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -14px;
+}
+.onaboshi li .active::before{
+    content: "";
+    width: 5px;
+    height: 4px;
+    background-color: #fa9021;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+}
+
+.header a{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+}
+.onaboshi li{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+}
+.header__wrapper1{
+    display: none;
+}
+.onaboshi button{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 6px;
+width: 131px;
+height: 41px;
+background: #fa9021;
+border: none;
+align-items: center;
+}
+.header__wrapper1 button{
+    background: #2351f5;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fffcfc;
+border-radius: 50%;
+
+}
+
+@media (max-width: 850px){
+    .onaboshi{
+        gap: 20px;
+    }
+}
+@media (max-width: 550px){
+    .onaboshi{
+        gap: 10px;
+    }
+    .onaboshi{
+        display: none;
+    }
+    .header__menu{
+        display: block;
+    }
+    .modal{
+        background-image: url("../image/retro-s-video-game-background-featuring-blue-light-streaks-cosmic-space-setting-generated-ai-361762225.webp");
+        width: 100%;
+    }
+    .modal a{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 180%;
+color: #fff;
+    }
+    .header__menu{
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+    }
+    .header__wrapper{
+        position: relative;
+    }
+}

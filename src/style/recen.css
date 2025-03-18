@@ -1,0 +1,47 @@
+.recen{
+    margin-top: 150px;
+}
+.recen__text h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 30px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+}
+.recen__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+.recen__text p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+margin: 15px 0 71px ;
+}
+.recen button{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 187%;
+color: #fff;
+border-radius: 10px;
+width: 139px;
+height: 57px;
+background: rgba(255, 255, 255, 0.11);
+border: none;
+display: block;
+margin: 0 auto;
+margin-top: 76px;
+}
+@media(max-width: 500px){
+    .recen__wrapper img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,75 @@
+.service__text h4{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #fff;
+text-align: center;
+}
+.service__text span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #e47500;
+}
+.service__wrapper{
+    margin-top: 110px;
+}
+.service__text h2{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #fff;
+}
+.service__text p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #fff;
+margin-bottom: 45px;
+}
+.service__jadval{
+    background-color: #1c140f;
+}
+.service__card h3{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 25px;
+line-height: 120%;
+color: #fff;
+}
+.service__card h4{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #fff;
+}
+.service__card{
+    border-spacing: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
+.service__jadval{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 91px 72px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+@media(max-width: 760px){
+    .service__jadval{
+        gap: 30px;
+        border-radius: 50% 20% / 10% 40%;
+    }
+}
