@@ -1,10 +1,10 @@
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import React, { useRef } from 'react'
 import '../style/header.css'
 import logo from '../image/header_logo.png'
 import janobX from '../image/Arrow right.png'
 function Header() {
-  let location = useLocation()
+
     let modal = useRef()
     function openModal(){
        modal.current.classList.add("show_modal")
