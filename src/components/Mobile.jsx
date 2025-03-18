@@ -1,6 +1,5 @@
 import React from 'react'
 import '../style/mobile.css'
-import background from '../image/black_backgrpund.png'
 import ong from '../image/ong.png'
 import rasm1 from '../image/pc_mobile (1).png'
 import rasm2 from '../image/pc_mobile (2).png'
